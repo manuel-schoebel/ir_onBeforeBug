@@ -1,0 +1,15 @@
+<head>
+  <title>ir_onBeforeBug</title>
+</head>
+
+<template name="layout">
+  {{> yield}}
+</template>
+
+<template name="home">
+  {{#each item}}
+  <p>{{name}}</p>
+  {{else}}
+  <p>No items</p>
+  {{/each}}
+</template>
